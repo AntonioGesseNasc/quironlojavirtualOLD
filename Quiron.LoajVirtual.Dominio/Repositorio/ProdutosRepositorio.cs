@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Quiron.LoajVirtual.Dominio.Entidades;
+using Quiron.LojaVirtual.Dominio.Entidades;
 
-namespace Quiron.LoajVirtual.Dominio.Repositorio
+namespace Quiron.LojaVirtual.Dominio.Repositorio
 {
     public class ProdutosRepositorio
     {

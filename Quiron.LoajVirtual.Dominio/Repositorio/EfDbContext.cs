@@ -5,9 +5,9 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Quiron.LoajVirtual.Dominio.Entidades;
+using Quiron.LojaVirtual.Dominio.Entidades;
 
-namespace Quiron.LoajVirtual.Dominio.Repositorio
+namespace Quiron.LojaVirtual.Dominio.Repositorio
 {
     public class EfDbContext : DbContext
     {
