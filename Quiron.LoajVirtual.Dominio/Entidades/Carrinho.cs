@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Quiron.LojaVirtual.Dominio.Entidades;
 
 namespace Quiron.LojaVirtual.Dominio.Entidades
 {
@@ -51,13 +50,14 @@ namespace Quiron.LojaVirtual.Dominio.Entidades
         }
 
         // Itens Carrinho
-        public IEnumerable<ItemCarrinho> ItemCarrinho 
+        public IEnumerable<ItemCarrinho> ItensCarrinho 
         {
             get { return _itemCarrinho; }
         }
+
     }
 
-    public  class ItemCarrinho
+    public class ItemCarrinho
 	{
         public Produto Produto { get; set; }
 
