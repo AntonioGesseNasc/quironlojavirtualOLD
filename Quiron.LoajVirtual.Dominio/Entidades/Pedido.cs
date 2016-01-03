@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quiron.LojaVirtual.Dominio
+namespace Quiron.LojaVirtual.Dominio.Entidades
 {
     public class Pedido
     {
@@ -20,13 +20,13 @@ namespace Quiron.LojaVirtual.Dominio
         public string Endereco { get; set; }
 
         [Display(Name="Complemento")]
-        public string Cidade { get; set; }
-
-        [Required(ErrorMessage = "Informe seu nome")]
-        [Display(Name = "Cidade")]
         public string Complemento { get; set; }
 
-        [Required(ErrorMessage = "Informe seu nome")]
+        [Required(ErrorMessage = "Informe sua cidade")]
+        [Display(Name = "Cidade")]
+        public string Cidade { get; set; }
+
+        [Required(ErrorMessage = "Informe seu bairro")]
         [Display(Name = "Bairro")]
         public string Bairro { get; set; }
 
